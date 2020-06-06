@@ -52,6 +52,7 @@ void state_cb(const mavros_msgs::State::ConstPtr& msg){
   current_state = *msg;
 }
 
+// I am Nan mei
 void uav_lp_cb(const geometry_msgs::PoseStamped::ConstPtr& pose){
   uav_lp_x = pose->pose.position.x;
   uav_lp_y = pose->pose.position.y;
